@@ -20,17 +20,17 @@ SPECIALIZATIONS = [
 ]
 
 DOCTORS = [
-    ('dr_sharma', 'Ananya', 'Sharma', 'General Physician', 'MBBS, MD (Internal Medicine)', 12, 400,
-     'Dr. Sharma has over a decade of experience treating acute and chronic conditions, with a focus on preventive care.'),
-    ('dr_mehta', 'Rohan', 'Mehta', 'Cardiology', 'MBBS, MD, DM (Cardiology)', 15, 900,
+    ('dr_khatri', 'tubelightt', 'khatri', 'General Physician', 'MBBS, MD (Internal Medicine)', 12, 400,
+     'Dr. khatri has over a decade of experience treating acute and chronic conditions, with a focus on preventive care.'),
+    ('dr_Karki', 'sampu', 'karki', 'Cardiology', 'MBBS, MD, DM (Cardiology)', 15, 900,
      'Interventional cardiologist specialising in hypertension, heart failure and cardiac rehabilitation.'),
-    ('dr_iyer', 'Priya', 'Iyer', 'Dermatology', 'MBBS, MD (Dermatology)', 8, 600,
+    ('dr_Kumari', 'Pirtha', 'kumari', 'Dermatology', 'MBBS, MD (Dermatology)', 8, 600,
      'Treats acne, eczema, psoriasis and hair loss, and offers cosmetic dermatology consultations.'),
-    ('dr_khan', 'Imran', 'Khan', 'Pediatrics', 'MBBS, DCH, MD (Pediatrics)', 10, 500,
+    ('dr_Bhattarai', 'Chunnah', 'bhattarai', 'Pediatrics', 'MBBS, DCH, MD (Pediatrics)', 10, 500,
      'Friendly paediatrician covering growth, nutrition, vaccinations and common childhood illnesses.'),
-    ('dr_reddy', 'Kavya', 'Reddy', 'Orthopedics', 'MBBS, MS (Orthopaedics)', 9, 700,
+    ('dr_Gaihre', 'Krishna', 'Reddy', 'Orthopedics', 'MBBS, MS (Orthopaedics)', 9, 700,
      'Sports-injury and joint-pain specialist with a focus on non-surgical rehabilitation.'),
-    ('dr_bose', 'Arjun', 'Bose', 'Psychiatry', 'MBBS, MD (Psychiatry)', 7, 800,
+    ('dr_Sapkota', 'Sarojni', 'Sapkota', 'Psychiatry', 'MBBS, MD (Psychiatry)', 7, 800,
      'Helps patients with anxiety, depression, sleep issues and stress management.'),
 ]
 
