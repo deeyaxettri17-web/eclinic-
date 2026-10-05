@@ -78,7 +78,7 @@ body { background: var(--surface); color: var(--ink); }
 .card-hover { transition: transform .15s ease, box-shadow .15s ease; }
 .card-hover:hover { transform: translateY(-3px); box-shadow: 0 16px 32px -18px rgba(15,23,42,.35); }
 .spec-card { text-decoration: none; color: inherit; display: block; text-align: center; padding: 1.25rem .75rem; }
-.spec-card .emoji { font-size: 2rem; }
+.spec-card .spec-icon { font-size: 1.75rem; color: var(--brand); }
 
 .stat-tile { background: #fff; border: 1px solid #e2e8f0; border-radius: 1rem; padding: 1.1rem 1.25rem; }
 .stat-tile .value { font-size: 1.75rem; font-weight: 800; }

@@ -34,7 +34,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=100, unique=True)),
-                ('icon', models.CharField(blank=True, help_text='An emoji shown on cards', max_length=10)),
+                ('icon', models.CharField(blank=True, help_text='Bootstrap Icons name, e.g. "heart-pulse"', max_length=40)),
                 ('description', models.TextField(blank=True)),
             ],
             options={

@@ -8,7 +8,7 @@ from django.utils import timezone
 
 class Specialization(models.Model):
     name = models.CharField(max_length=100, unique=True)
-    icon = models.CharField(max_length=10, blank=True, help_text='An emoji shown on cards')
+    icon = models.CharField(max_length=40, blank=True, help_text='Bootstrap Icons name, e.g. "heart-pulse"')
     description = models.TextField(blank=True)
 
     class Meta:

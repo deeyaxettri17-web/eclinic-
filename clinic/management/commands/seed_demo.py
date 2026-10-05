@@ -11,12 +11,12 @@ from clinic.models import Appointment, Doctor, Patient, Prescription, Specializa
 DEMO_PASSWORD = 'demo12345'
 
 SPECIALIZATIONS = [
-    ('General Physician', '🩺', 'Fever, cold, infections and everyday health concerns.'),
-    ('Cardiology', '❤️', 'Heart and blood-pressure related conditions.'),
-    ('Dermatology', '🧴', 'Skin, hair and nail problems.'),
-    ('Pediatrics', '🧸', 'Healthcare for infants, children and teens.'),
-    ('Orthopedics', '🦴', 'Bones, joints, muscles and sports injuries.'),
-    ('Psychiatry', '🧠', 'Mental health, stress, anxiety and sleep.'),
+    ('General Physician', 'thermometer-half', 'Fever, cold, infections and everyday health concerns.'),
+    ('Cardiology', 'heart-pulse', 'Heart and blood-pressure related conditions.'),
+    ('Dermatology', 'droplet-half', 'Skin, hair and nail problems.'),
+    ('Pediatrics', 'balloon', 'Healthcare for infants, children and teens.'),
+    ('Orthopedics', 'person-walking', 'Bones, joints, muscles and sports injuries.'),
+    ('Psychiatry', 'chat-heart', 'Mental health, stress, anxiety and sleep.'),
 ]
 
 DOCTORS = [

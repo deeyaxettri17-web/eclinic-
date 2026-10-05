@@ -9,13 +9,13 @@
       {% endif %}
       <div>
         <h3 class="h6 fw-bold mb-0">{{ doctor }}</h3>
-        <div class="small text-primary fw-semibold">{{ doctor.specialization.icon }} {{ doctor.specialization|default:"General" }}</div>
+        <div class="small text-primary fw-semibold"><i class="bi bi-{{ doctor.specialization.icon|default:'hospital' }} me-1"></i>{{ doctor.specialization|default:"General" }}</div>
       </div>
     </div>
     <p class="small text-muted mb-2">{{ doctor.qualification }}</p>
     <div class="d-flex gap-3 small text-muted mb-3">
       <span><i class="bi bi-award me-1"></i>{{ doctor.experience_years }} yrs exp.</span>
-      <span><i class="bi bi-currency-rupee"></i>{{ doctor.consultation_fee|floatformat:0 }}</span>
+      <span><i class="bi bi-cash me-1"></i>Rs. {{ doctor.consultation_fee|floatformat:0 }}</span>
     </div>
     <div class="mt-auto d-flex gap-2">
       <a href="{{ doctor.get_absolute_url }}" class="btn btn-outline-primary btn-sm flex-fill">Profile</a>

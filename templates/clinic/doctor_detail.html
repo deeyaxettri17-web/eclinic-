@@ -13,13 +13,13 @@
             {% else %}<span class="avatar avatar-lg">{{ doctor.user|initials }}</span>{% endif %}
             <div>
               <h1 class="h3 fw-bold mb-1">{{ doctor }}</h1>
-              <div class="text-primary fw-semibold">{{ doctor.specialization.icon }} {{ doctor.specialization|default:"General" }}</div>
+              <div class="text-primary fw-semibold"><i class="bi bi-{{ doctor.specialization.icon|default:'hospital' }} me-1"></i>{{ doctor.specialization|default:"General" }}</div>
               <div class="text-muted small">{{ doctor.qualification }}</div>
             </div>
           </div>
           <div class="row g-3 mb-4">
             <div class="col-sm-4"><div class="stat-tile"><div class="value">{{ doctor.experience_years }}+</div><div class="label">Years experience</div></div></div>
-            <div class="col-sm-4"><div class="stat-tile"><div class="value">₹{{ doctor.consultation_fee|floatformat:0 }}</div><div class="label">Consultation fee</div></div></div>
+            <div class="col-sm-4"><div class="stat-tile"><div class="value">Rs. {{ doctor.consultation_fee|floatformat:0 }}</div><div class="label">Consultation fee</div></div></div>
             <div class="col-sm-4"><div class="stat-tile"><div class="value">{{ doctor.slot_minutes }}<small class="fs-6"> min</small></div><div class="label">Per consultation</div></div></div>
           </div>
           <h2 class="h6 fw-bold">About</h2>

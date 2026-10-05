@@ -12,7 +12,7 @@
       <select name="specialization" class="form-select" onchange="this.form.submit()">
         <option value="">All specialities</option>
         {% for spec in specializations %}
-          <option value="{{ spec.pk }}" {% if selected_spec == spec.pk|stringformat:"d" %}selected{% endif %}>{{ spec.icon }} {{ spec.name }}</option>
+          <option value="{{ spec.pk }}" {% if selected_spec == spec.pk|stringformat:"d" %}selected{% endif %}>{{ spec.name }}</option>
         {% endfor %}
       </select>
     </div>
